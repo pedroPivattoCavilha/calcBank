@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Mega Sena</title>
+</head>
+<body>
+
+    <div class="top-container">
+        <h1 class="info_title">Informe os números</h1>
+
+        <img src="./images/Mega-Sena-Cabecalho.png" alt="" class="mega-img">
+
+        <form name="megasena" method="post" class="form-container">
+
+            <div class="inputs">
+                <input type="number" name="num1" id="num1" value="00" min="01" max="60" required>
+                <br>
+                <input type="number" name="num2" id="num2" value="00" min="01" max="60" required>
+                <br>
+                <input type="number" name="num3" id="num3" value="00" min="01" max="60" required>
+                <br>
+                <input type="number" name="num4" id="num4" value="00" min="01" max="60" required>
+                <br>
+                <input type="number" name="num5" id="num5" value="00" min="01" max="60" required>
+                <br>
+                <input type="number" name="num6" id="num6" value="00" min="01" max="60" required>
+                <br>
+                <input type="number" name="num7" id="num7" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num8" id="num8" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num9" id="num9" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num10" id="num10" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num11" id="num11" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num12" id="num12" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num13" id="num13" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num14" id="num14" value="00" min="01" max="60">
+                <br>
+                <input type="number" name="num15" id="num15" value="00" min="01" max="60">
+            </div>
+
+            <br>
+            <br>
+
+            <div class="buttons">
+                <button id="button-send" class="form-button">Enviar</button>
+                <button id="button-reset" type="reset" class="form-buttton">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    
+    <hr>
+
+    <h2 id="result">Resultado</h2>
+
+    <div id="msg"></div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

@@ -44,6 +44,10 @@ h1 {
     h1 {
         font-size: 30px;
     }
+    
+    .inputs {
+        margin: 0 10px;
+    }
 }
 
 .form-container {

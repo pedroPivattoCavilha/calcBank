@@ -24,6 +24,9 @@ const checkNumbers = (ev) => {
 
         if(form.elements[i].value < 10 && form.elements[i].value.length < 2) {
             form.elements[i].value = "0" + form.elements[i].value;
+            if(form.elements[i].value == "0") {
+                form.elements[i].value = "0" + form.elements[i].value;
+            }
         }
         numbers.push(form.elements[i].value);
     }

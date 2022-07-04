@@ -30,6 +30,7 @@ hr {
 .mega-img {
     position: absolute;
     z-index: 1;
+    height: inherit;
 }
 
 h1 {

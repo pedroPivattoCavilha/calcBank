@@ -60,7 +60,8 @@ hr {
 
 input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
-  }
+    -moz-appearance:textfield;
+}
 
 .inputs input {
     border-color: #0066b3;
@@ -73,7 +74,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 .buttons {
     display: flex;
-    margin-bottom: 20px;
+    margin: 20px 0;
     gap: 20px;
 }
 

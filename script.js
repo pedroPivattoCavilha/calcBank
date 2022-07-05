@@ -39,8 +39,8 @@ const checkNumbers = (ev) => {
     }
 
     //Deletes duplicates
-    numbers = numbers.filter(function(item, pos, self) {
-        return self.indexOf(item) == pos;
+    numbers = numbers.filter((item, index, self) => {
+        return self.indexOf(item) == index;
     })
 
     if(numbers.length < 7) {

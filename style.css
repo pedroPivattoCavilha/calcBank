@@ -33,21 +33,11 @@ hr {
     height: inherit;
 }
 
-h1 {
+.info-title {
     margin: 30px auto;
     color: white;
     z-index: 2;
     font-size: 40px;
-}
-
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 30px;
-    }
-    
-    .inputs {
-        margin: 0 10px;
-    }
 }
 
 .form-container {
@@ -112,4 +102,14 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .info-title {
+        font-size: 30px;
+    }
+    
+    .inputs {
+        margin: 0 10px;
+    }
 }

@@ -43,8 +43,6 @@ const checkNumbers = (ev) => {
         return self.indexOf(item) == pos;
     })
 
-    console.log(numbers);
-
     if(numbers.length < 7) {
         err = 2;
     }

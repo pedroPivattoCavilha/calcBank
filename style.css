@@ -20,7 +20,7 @@ hr {
 .top-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
     background-image: url("./images/bg_destaqueInternas.jpg");
     width: 100%;
@@ -31,10 +31,11 @@ hr {
     position: absolute;
     z-index: 1;
     height: inherit;
+    right: 0;
 }
 
 .info-title {
-    margin: 30px auto;
+    margin: 30px;
     color: white;
     z-index: 2;
     font-size: 40px;
@@ -111,7 +112,6 @@ button:hover {
 @media only screen and (max-width: 600px) {
     .info-title {
         font-size: 20px;
-        padding: 0 10px;
     }
     
     .inputs {
